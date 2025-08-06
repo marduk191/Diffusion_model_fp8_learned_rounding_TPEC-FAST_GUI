@@ -1,0 +1,22 @@
+# Core dependencies for FP8 Model Quantization
+torch>=2.1.0
+safetensors>=0.4.0
+tqdm>=4.64.0
+
+# Optional but recommended for better performance
+# Note: Some features may require specific PyTorch builds with FP8 support
+
+# For development and testing (uncomment if needed)
+# pytest>=7.0.0
+# black>=22.0.0
+# flake8>=5.0.0
+# mypy>=1.0.0
+
+# GPU acceleration (automatically installed with PyTorch if CUDA available)
+# torchvision>=0.16.0  # Optional, only if using vision models
+
+# System requirements notes:
+# - Python 3.8 or higher
+# - CUDA-compatible GPU recommended
+# - 16GB+ RAM for large models
+# - PyTorch compiled with FP8 support
